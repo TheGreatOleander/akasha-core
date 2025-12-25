@@ -1,0 +1,55 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #111;
+  color: #eee;
+  margin: 0;
+}
+
+header, footer {
+  padding: 1em;
+  background: #1a1a1a;
+}
+
+main {
+  padding: 1em;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+textarea {
+  width: 100%;
+  height: 4em;
+}
+
+.entry {
+  margin-bottom: 1em;
+}
+
+#steward-note {
+  font-size: 0.8em;
+  opacity: 0.7;
+  margin-top: 0.5em;
+}
+
+#care-link {
+  font-size: 0.9em;
+  margin-top: 0.5em;
+  opacity: 0.8;
+}
+
+#care-link a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+#care-link a:hover {
+  text-decoration: underline;
+}
+
+#care-link span {
+  display: block;
+  margin-top: 0.2em;
+  font-size: 0.8em;
+  color: #ccc;
+  word-break: break-all;
+}
